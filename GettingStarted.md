@@ -40,7 +40,7 @@ Next, upload your public SSH key on the cluster. Run the following command in a 
 ```
 cat ~/.ssh/id_rsa.pub
 ```
-Copy and paste the output to our [SSH key uploader](https://sshkeys.ycrc.yale.edu/cgi-bin/sshkeys.py). Note: It can take a few minutes for newly uploaded keys to sync out to the clusters so your login may not work immediately.
+Copy and paste the output to the [SSH key uploader](https://sshkeys.ycrc.yale.edu/cgi-bin/sshkeys.py). Note: It can take a few minutes for newly uploaded keys to sync out to the clusters so your login may not work immediately.
 
 Once the public key is uploaded successfully, log onto the cluster using
 ```

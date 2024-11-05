@@ -1,15 +1,11 @@
-## Getting Started
-### Request Account
----
+## Request Account
 Request a cluster account by filling out the following form: Cluster account request form [Cluster account request form](https://research.computing.yale.edu/support/hpc/account-request)
 
-### Cluster Selection
----
+## Cluster Selection
 * Milgram: for sensitive data and/or data with PHI, in compliance with HIPAA
 * McCleary: for insensitive data or public data
 
-### Log into Cluster
----
+## Log into Cluster
 An email will be sent to you after account request is approved. For SSH connection, you will need to upload the SSH Key for your devices. 
 First, check if your device already has an SSH key pair: 
 ```

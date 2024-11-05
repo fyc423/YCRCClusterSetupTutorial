@@ -1,5 +1,5 @@
 ## Interactive Sessions
-You can use the [Web Portal (Open OnDemand)](https://docs.ycrc.yale.edu/clusters-at-yale/access/ood/), and create an interactive session for the specific cluster you are using. This can be used during the development phase of your scripts. 
+You can use the [Web Portal (Open OnDemand)](https://docs.ycrc.yale.edu/clusters-at-yale/access/ood/), and create an interactive session for the specific cluster you are using. This can be used during the development phase of your code for testing and troubleshooting. 
 
 You can also use the web portal to 
 - Check `Files` 
@@ -16,3 +16,4 @@ To launch the server you will need to enter the following information:
 - `Number of GPUs per node`:
 
 ![PortalSetupl](https://github.com/fyc423/YCRCClusterSetupTutorial/blob/main/PortalSetup.JPG?raw=true)
+This is equivalent to submitting an interactive job 

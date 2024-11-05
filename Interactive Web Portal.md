@@ -1,10 +1,10 @@
-## During Development Phase
-You can use the [Web Portal (Open OnDemand)](https://docs.ycrc.yale.edu/clusters-at-yale/access/ood/), and create an interactive session for the specific cluster you are using. This is usually recommended during the development phase of your scripts. 
+## Interactive Sessions
+You can use the [Web Portal (Open OnDemand)](https://docs.ycrc.yale.edu/clusters-at-yale/access/ood/), and create an interactive session for the specific cluster you are using. This can be used during the development phase of your scripts. 
 
 You can also use the web portal to 
 - Check `Files` 
-- Check avtive jobs under `Jobs`
-- Check your user portal summry under `Utilites`
+- Check active jobs under `Jobs`
+- Check your user portal summary under `Utilities`
 
 ![WebProtal](https://github.com/fyc423/YCRCClusterSetupTutorial/blob/main/ood_welcome.png?raw=true)
 

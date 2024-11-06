@@ -4,8 +4,12 @@ Request a cluster account by filling out the following form: Cluster account req
 ## Cluster Selection
 * Milgram: for sensitive data and/or data with PHI, in compliance with HIPAA
 * McCleary: for insensitive data or public data
+* Grace: Similar to McCleary, but mainly for the CS & EE department (ask if your PI has the right to access it)
 
 ## Log into Cluster
+
+Before logging into the the cluster, you must ensure your device is under the Yale network or is connected with Yale VPN.
+
 An email will be sent to you after account request is approved. For SSH connection, you will need to upload the SSH Key for your devices. 
 First, check if your device already has an SSH key pair: 
 ```

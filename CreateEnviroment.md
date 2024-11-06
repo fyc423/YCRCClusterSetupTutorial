@@ -9,7 +9,7 @@ Load the modules you need, for instance,  load the Conda module first:
 module load anaconda3  # or `module load miniconda`
 ```
 ## Create a Conda Environment
-Create a new Conda environment. Replace `myenv` with your desired environment name and specify any packages you need (e.g., `numpy`, `pandas`).
+Create a new Conda environment. Replace `myenv` with your desired environment name and specify any packages you need (e.g., `numpy`, `pandas`) or you can install the packages late. 
 ```
 conda create --name myenv numpy pandas
 ```
@@ -32,3 +32,15 @@ If you have installed or deleted a conda environment, run the following command 
 ycrc_conda_env.sh update
 ```
 For creating an interactive Jupyter session using WebPortal please refer to [Interactive Web Portal Guildline](https://github.com/fyc423/YCRCClusterSetupTutorial/blob/main/Interactive%20Web%20Portal.md)
+
+## Install Monai
+For `monai` user, after creating your `conda` environment, activate the environment via 
+```
+conda activate myenv
+```
+Then install `monai` in your specified environment
+```
+pip install monai
+```
+Install any additional dependencies as needed. 
+

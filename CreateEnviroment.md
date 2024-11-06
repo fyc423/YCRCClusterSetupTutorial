@@ -31,7 +31,7 @@ If you have installed or deleted a conda environment, run the following command 
 ```
 ycrc_conda_env.sh update
 ```
-For creating an interactive Jupyter session using WebPortal please refer to [Interactive Web Portal Guildline](https://github.com/fyc423/YCRCClusterSetupTutorial/blob/main/Interactive%20Web%20Portal.md)
+For creating an interactive Jupyter session using WebPortal please refer to [Interactive Web Portal Guildline](https://github.com/fyc423/YCRCClusterSetupTutorial/blob/main/InteractiveWebPortal.md)
 
 ## Install Monai
 For `monai` user, after creating your `conda` environment, activate the environment via 

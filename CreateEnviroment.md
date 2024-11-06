@@ -44,3 +44,6 @@ pip install monai
 ```
 Install any additional dependencies as needed. 
 
+## Note for PyTorch-GPU installation
+
+To install `pytorch-gpu`, you may need to first request a node in interactive mode with GPU and then install it in the environment with GPU, otherwise, you may encounter an Error about missing CUDA kit.

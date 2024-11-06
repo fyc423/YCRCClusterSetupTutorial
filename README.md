@@ -3,15 +3,10 @@ This is an internal tutorial for setting up your project account for YCRC comput
 
 ## Table of Contents
 
-1. [Getting Started](#GettingStarted)
-   - [Setting Up](intro/setup.md)
-2. [Usage](#usage)
-   - [Basic Git Commands](usage/basic-commands.md)
-   - [Branching](usage/branching.md)
-   - [Merging](usage/merging.md)
-3. [Advanced GitHub Features](#advanced-github-features)
-   - [Pull Requests](advanced/pull-requests.md)
-   - [Git Hooks](advanced/git-hooks.md)
+1. [Getting Started](GettingStarted.md)
+2. [Create Enviroment](CreateEnviroment.md)
+3. [Interactive Web Portal](InteractiveWebPortal.md)
+4. [Slurm Job Submission](SlurmJobSubmission.md)
 
 
 

@@ -31,8 +31,31 @@ You can upload the submission script directly to the desired folder via the web 
 
 ## Check Job Progress
 To check your job status, you can access `Active Jobs` on the web portal. 
-Or create an alias that shows job queue information for a user identified by NetID. 
+Or create an alias that shows job queue information for the user identified by NetID. 
 ```
+alias sq='squeue -u NetID --format="%.10i %.9P %.25j %.65k %.5u %.8T %.3C %.10M %.9l %.6D %R“’
+```
+`%.10i` - Job ID
+
+`%.9P` - Partition name, limited to 9 characters
+
+`%.25j` - Job name, limited to 25 characters
+
+`%.65k` - Requested features (node types or resources), limited to 65 characters
+
+`%.5u` - Username, limited to 5 characters
+
+`%.8T` - Job state, limited to 8 characters (e.g., RUNNING, PENDING)
+
+`%.3C` - Number of CPUs allocated to the job, limited to 3 characters
+
+`%.10M` - Time used by the job, limited to 10 characters
+
+`%.9l` - Time limit, limited to 9 characters
+
+`%.6D` - Number of nodes allocated to the job, limited to 6 characters
+
+`%R` - Reason or assigned node (for pending jobs)
 
 To view output and error files after the job completes:
 ```

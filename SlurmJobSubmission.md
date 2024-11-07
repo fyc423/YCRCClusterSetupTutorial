@@ -35,6 +35,8 @@ Or create an alias that shows job queue information for the user identified by N
 ```
 alias sq='squeue -u NetID --format="%.10i %.9P %.25j %.65k %.5u %.8T %.3C %.10M %.9l %.6D %R“’
 ```
+And replace NetID with your own netid.
+
 - `%.10i` - Job ID
 - `%.9P` - Partition name, limited to 9 characters
 - `%.25j` - Job name, limited to 25 characters
@@ -59,6 +61,19 @@ tail -f logs/%x_%j.err   # Follow error
 ```
 Or you can access the output and error files via the web portal.
 
+You may also check the job resource usage with the following command:
+```
+jobstats JobID
+```
+where the JobID is the id of the corresponding job. This command will return you the CPU, memory, GPU, and GPU memory usage for the job and recommend settings to optimize your usage.
+
+## Monitor GPU Availability
+
+you may use the following script to monitor the GPU availability on the cluster:
+```
+sinfo -e -o "%.6D|%T|%C|%G|%b" | column -ts "|" | grep -v ',pi' | grep GPU_ID
+```
+You can then replace GPU_ID with the name of the GPU that you want to use, e.g., a5000/rtx5000. This will return you with the availability of the indicated GPU.
 
 
 

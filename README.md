@@ -4,7 +4,7 @@ This is an internal tutorial for setting up your project account for YCRC comput
 ## Table of Contents
 
 1. [Getting Started](GettingStarted.md)
-2. [Create Enviroment](CreateEnviroment.md)
+2. [Create Environment](CreateEnviroment.md)
 3. [Interactive Web Portal](InteractiveWebPortal.md)
 4. [Slurm Job Submission](SlurmJobSubmission.md)
 
